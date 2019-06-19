@@ -1,4 +1,4 @@
-yclear
+clear
 figlet Tools Hack Mr.Ril | lolcat
 echo "============================================================
 
@@ -9,7 +9,8 @@ echo "============================================================
 sleep 3
 echo "[1] DarkFb
 [2] Webdav
-[3] Exit!" | lolcat
+[3] menambahkan anak panah di termux
+[4] exitt !" | lolcat
 echo "Pilih bob: " | lolcat
 read  nomor
 
@@ -33,7 +34,17 @@ cd webdav
 python webdav.py
 fi
 
-if [ $nomor = 3 ] || [ $nomor 03 ]
+if [ $nomor = 3 ] || [ $nomor = 03 ]
+then
+clear
+pkg update wget -y
+wget https://raw.githack.com/kumpul4semut/newtermux/master/key.py
+chmod +x key.py
+python key.py
+fi
+
+
+if [ $nomor = 4 ] || [ $nomor 04 ]
 then
 figlet See u From Mr.ril | lolcat
 fi
