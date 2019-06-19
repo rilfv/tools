@@ -47,5 +47,6 @@ fi
 if [ $nomor = 4 ] || [ $nomor 04 ]
 then
 clear
-figlet See u From Mr.ril | lolcat
+toilet -f mono12 -F gay "Terimakasih telah menggunakan tools ini"
+figlet Mr.Ril | lolcat
 fi
