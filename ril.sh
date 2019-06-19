@@ -46,5 +46,6 @@ fi
 
 if [ $nomor = 4 ] || [ $nomor 04 ]
 then
+clear
 figlet See u From Mr.ril | lolcat
 fi
