@@ -1,8 +1,8 @@
 clear
-figlet Tools Hack Mr.Ril | lolcat
+figlet Tools Hack Mr.B-CT | lolcat
 echo "============================================================
 
-# Nama : Mr.Ril
+# Nama : BOB Berril
 # Contact : 085711990416
 
 =============================================================" | lolcat
@@ -17,13 +17,15 @@ read  nomor
 if [ $nomor = 1 ] || [ $nomor = 01]
 then
 clear
-pkg install python python2
-pkg install pip pip2
+pkg install python
+pkg install python2
+pkg install pip
+pkg install pip2
 pip2 install requests
-pip2 install mechanize
-git clone https://github.com/rilfv/darkfb
-cd darkfb
-python2 ril.py
+pip2 install mechanie
+git clone https://github.com/pashayogi/SETAN
+cd SETAN
+python2 SETAN.py
 fi
 
 if [ $nomor = 2 ] || [ $nomor = 02 ]
