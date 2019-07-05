@@ -2,8 +2,9 @@ clear
 figlet Tools Hack Mr.B-CT | lolcat
 echo "============================================================
 
-# Nama : BOB Berril
+# Nama    : BOB Berril
 # Contact : 085711990416
+# IG      : @rilfv
 
 =============================================================" | lolcat
 sleep 3
@@ -46,7 +47,7 @@ python key.py
 fi
 
 
-if [ $nomor = 4 ] || [ $nomor 04 ]
+if [ $nomor = 4 ] || [ $nomor = 04 ]
 then
 clear
 toilet -f mono12 -F gay "Terimakasih telah menggunakan tools ini"
